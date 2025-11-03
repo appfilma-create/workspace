@@ -1,0 +1,31 @@
+{
+  "name": "filma-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "tailwind": "npx tailwindcss -i ./app/globals.css -o ./public/output.css --watch"
+  },
+  "dependencies": {
+    "firebase": "12.4.0",
+    "framer-motion": "12.23.24",
+    "lucide-react": "0.546.0",
+    "next": "15.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "10.4.21",
+    "typescript": "^5"
+  }
+}
